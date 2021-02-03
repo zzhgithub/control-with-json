@@ -1,0 +1,26 @@
+[
+  {
+    "offset": 3,
+    "status": {
+      "light": 1,
+      "temperature": 25,
+      "humidity": 20
+    }
+  },
+  {
+    "offset": 5,
+    "status": {
+      "light": 8,
+      "temperature": 25,
+      "humidity": 18
+    }
+  },
+  {
+    "offset": 10,
+    "status": {
+      "light": 10,
+      "temperature": 26,
+      "humidity": 19
+    }
+  }
+]
