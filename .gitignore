@@ -3,3 +3,4 @@ test.mp4
 test
 venv
 .idea
+__pycache__

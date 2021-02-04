@@ -5,6 +5,8 @@ import json
 # like XiaoMi .Then should define a struct for
 # what to do.following just write to file
 def dealer(**kwargs):
+    print("here is in dealer!")
     f = open("test", "a+")
-    f.write(json.dump(kwargs))
+    f.write(str(kwargs) + "\n")
     f.close()
+    # 这里对接硬件接口

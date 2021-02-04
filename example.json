@@ -8,6 +8,14 @@
     }
   },
   {
+    "offset": 4,
+    "status": {
+      "light": 1,
+      "temperature": 25,
+      "humidity": 20
+    }
+  },
+  {
     "offset": 5,
     "status": {
       "light": 8,
@@ -21,6 +29,30 @@
       "light": 10,
       "temperature": 26,
       "humidity": 19
+    }
+  },
+  {
+    "offset": 13,
+    "status": {
+      "light": 1,
+      "temperature": 25,
+      "humidity": 20
+    }
+  },
+  {
+    "offset": 15,
+    "status": {
+      "light": 1,
+      "temperature": 25,
+      "humidity": 20
+    }
+  },
+  {
+    "offset": 17,
+    "status": {
+      "light": 1,
+      "temperature": 25,
+      "humidity": 20
     }
   }
 ]
