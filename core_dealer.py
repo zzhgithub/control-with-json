@@ -1,5 +1,5 @@
+# -*- coding:utf-8 -*-
 import json
-
 
 # Note:The call core is to controller hardware
 # like XiaoMi .Then should define a struct for

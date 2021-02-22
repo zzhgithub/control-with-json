@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from apscheduler.schedulers.background import BackgroundScheduler
 
 
@@ -33,4 +34,8 @@ class SchedulerComposer:
         if schedule is not None:
             schedule.resume()
 
+    def shutdown(self, name):
+        schedule: BackgroundScheduler = self._scheduler.get(name, None)
+        if schedule is not None:
+            schedule.shutdown()
     # todo clear Or others action

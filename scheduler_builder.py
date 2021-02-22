@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from apscheduler.schedulers.background import BackgroundScheduler
 import json
 from datetime import datetime
