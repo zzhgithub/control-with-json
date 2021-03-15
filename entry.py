@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flasktest import Flask, request
 from scheduler_composer import SchedulerComposer
 from scheduler_builder import build
 
